@@ -1,6 +1,34 @@
 # PRODIGY_CS_01
-A python program to encrypt and decrypt text using caesar cipher algorithm.
-HOW IT WORKS:
-1.Encryption:Each letter is shifted forward by the specified number of places in the alphabet.
-2.decryption:the shift is reversed(negative)
-3.non-alphabetic characters remain unchanged
+### Caesar Cipher Encryption and Decryption
+This Python script provides a simple implementation of the Caesar Cipher algorithm, allowing users to encrypt and decrypt messages by shifting letters in the alphabet.
+
+ ### Features
+Encryption: Converts plaintext into ciphertext using a user-defined shift value.
+Decryption: Restores the original message by reversing the shift.
+Case Sensitivity: Maintains uppercase and lowercase characters.
+Non-Alphabet Support: Leaves symbols, numbers, and spaces unaltered.
+### Requirements
+
+Python 3.x
+Usage
+Clone the Repository:
+
+''' bash
+
+git clone https://github.com/Indira12-gopal/PRODIGY_CS_01.git
+cd PRODIGY_CS_01
+'''
+### Run the Script:
+
+'''bash
+python caesar_cipher01.py
+'''
+### Follow the Prompts:
+
+Choose to encrypt or decrypt a message.
+Enter your message.
+Provide the shift value (an integer).
+
+### Output Screenshot :
+![Output]()
+
